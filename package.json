@@ -1,0 +1,27 @@
+{
+  "name": "solana-heatmap",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hellomoon/api": "^1.15.0-alpha.19",
+    "d3": "^7.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.1.1"
+  }
+}
